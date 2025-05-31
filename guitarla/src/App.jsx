@@ -1,14 +1,18 @@
-import Header from "./components/Header"
+import { useState } from "react"
 import Guitar from "./components/Guitar"
+import Header from "./components/Header"
 
 function App() {
+    const [auth, setAuth] = useState([])
+
+
   return (
     <>
      <Header />
     
 
     <main className="container-xl mt-5">
-        <h2 className="text-center">Nuestra Colección</h2>
+        <h2 className="text-center">Nuestra Colección3</h2>
         <div className="row mt-5">
           <Guitar></Guitar>
           <Guitar></Guitar>
