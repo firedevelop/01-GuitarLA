@@ -23,20 +23,15 @@ function App() {
      }, [])
       
   */
-
-
   return (
     <>
       <Header />
-
-
       <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección8</h2>
         <div className="row mt-5">
           {data.map(() => (
               <Guitar />
           ))}
-          <Guitar></Guitar>
         </div>
       </main>
 
